@@ -27,6 +27,8 @@ def prime?(number)
     return true
   end
   
+  
+  
   # [2,3]
   (2...number).to_a.each do |x| # 2
     
