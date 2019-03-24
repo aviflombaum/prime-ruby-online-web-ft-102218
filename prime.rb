@@ -27,10 +27,10 @@ def prime?(number)
     return true
   end
   
-  if number < 0
+  if number <= 0
     return false
   end
-    
+  
   
   # [2,3]
   (2...number).to_a.each do |x| # 2
