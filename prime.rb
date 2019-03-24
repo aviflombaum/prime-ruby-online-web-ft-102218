@@ -14,6 +14,9 @@
 # 9/3 !!!! It's a whole number
 # 9/2 X
 
+
+
+
 # i have to figure out a way to try to divide the number
 # by every number beneath until 2. 
 
@@ -33,7 +36,7 @@ def prime?(number)
   
   
   # [2,3]
-  (2...number).to_a.each do |x| # 2
+  (2...(number/2)).to_a.each do |x| # 2
     
     if number % x == 0 
       # the number isn't prime
