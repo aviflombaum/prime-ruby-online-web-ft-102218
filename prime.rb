@@ -28,7 +28,7 @@ def prime?(number)
   end
   
   # [2,3]
-  (2..number).to_a.each do |x| # 2
+  (2...number).to_a.each do |x| # 2
     
     if number % x == 0 
       # the number isn't prime
