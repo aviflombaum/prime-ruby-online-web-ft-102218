@@ -23,5 +23,12 @@
 # if none of that division produces a whole number, the number is prime.
 
 def prime?(number)
-  (2..9)
+  (2..number).to_a.each do |x|
+    
+    if number % x == 0 
+      # the number isn't prime
+      return false
+    end
+    
+  end
 end
