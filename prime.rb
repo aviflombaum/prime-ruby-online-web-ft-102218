@@ -23,5 +23,5 @@
 # if none of that division produces a whole number, the number is prime.
 
 def prime?(number)
-  
+  (2..9)
 end
