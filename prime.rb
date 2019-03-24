@@ -27,7 +27,7 @@ def prime?(number)
     return true
   end
   
-  if number <= 0
+  if number <= 1
     return false
   end
   
