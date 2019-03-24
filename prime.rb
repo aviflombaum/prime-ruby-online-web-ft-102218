@@ -23,6 +23,10 @@
 # if none of that division produces a whole number, the number is prime.
 
 def prime?(number)
+  if number == 2
+    return true
+  end
+  
   (2..number).to_a.each do |x|
     
     if number % x == 0 
