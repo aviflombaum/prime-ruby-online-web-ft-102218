@@ -36,4 +36,6 @@ def prime?(number)
     end
     
   end
+  
+  true
 end
